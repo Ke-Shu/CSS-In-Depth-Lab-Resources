@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/* whole page is the blue section */
+body{
+  margin:0;
+  font-family:"Lato",sans-serif;
+  font-size:16px;
+  background:#2f528e;               /* close to screenshot */
+  color:#e7eef9;
+}
+
+/* header wrapper so spacing matches */
+header{padding-bottom:90px}
+
+/* top nav */
+nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:22px 80px;
+}
+.nav-brand{height:38px}
+
+.nav-primary{
+  list-style:none;
+  display:flex;
+  gap:28px;
+  margin:0;
+  padding:0;
+}
+.nav-item a{
+  color:#e7eef9;
+  text-decoration:none;
+  text-transform:capitalize;
+  font-weight:400;
+  letter-spacing:.2px;
+  opacity:.95;
+}
+.nav-item.cta-btn a{
+  background:#47c2f6;
+  color:#fff;
+  padding:9px 18px;
+  border-radius:22px;
+  font-weight:700;
+}
+
+/* hero text */
+.header-title{
+  margin:90px 0 8px;
+  text-align:center;
+  font-weight:300;
+  font-size:58px;
+  color:#dfe8ff;
+}
+.header-subtitle{
+  text-align:center;
+  margin:0 0 26px;
+  font-weight:300;
+  font-size:22px;
+  color:#9fb0d2;
+}
+
+/* hero button */
+#button-container{display:flex;justify-content:center}
+.header-btn{
+  display:inline-block;
+  background:#47c2f6;
+  color:#fff;
+  padding:10px 22px;
+  border-radius:22px;
+  font-weight:700;
+  text-decoration:none;
+  text-transform:capitalize;
+}
+
+/* three service tiles (flat blue cards) */
+.header-services{
+  list-style:none;
+  display:flex;
+  gap:34px;
+  justify-content:center;
+  margin:64px auto 0;
+  padding:0 40px;
+}
+.service{
+  width:320px;
+  background:#2c4e87; /* slightly darker panel */
+  border-radius:6px;
+  padding:26px 24px;
+  color:#e7eef9;
+}
+.service-title{
+  margin:0 0 10px;
+  font-weight:700;
+  font-size:20px;
+  color:#fff;
+}
+.service-intro{
+  margin:0;
+  font-size:15px;
+  line-height:1.6;
+  color:#d5dff3;
+}
+.service-link{
+  color:#d5dff3;
+  text-decoration:none;
+  font-weight:700;
+}

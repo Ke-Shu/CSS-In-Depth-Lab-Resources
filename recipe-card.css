@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/* page */
+body{
+  margin:0;
+  background:#3a3a3a;
+  font-family:"Lato",sans-serif;
+  font-size:16px;
+  color:#fff;
+}
+
+/* card (image background, rounded) */
+main{
+  width:980px;
+  min-height:520px;
+  margin:60px auto;
+  padding:48px 56px;
+  border-radius:14px;
+  background:url("images/food-image-bg.png") center/cover no-repeat;
+  box-shadow:0 10px 28px rgba(0,0,0,.55);
+  position:relative;
+}
+
+/* small green info (top-left) */
+.recipies-info{
+  position:absolute;
+  top:78px;
+  left:170px;
+  display:flex;
+  gap:32px;
+  text-transform:lowercase;
+  font-weight:300;
+  font-size:13px;
+}
+.recipies-info p{margin:0;color:#fff;}
+.recipies-info span{display:inline;color:#b5c640;font-weight:900}
+
+/* outlined white pill button (under the info) */
+.btn-primary{
+  position:absolute;
+  top:128px;
+  left:240px;
+  border:2px solid #fff;
+  background:transparent;
+  color:#fff;
+  padding:6px 18px;
+  border-radius:22px;
+  font-weight:400;
+  text-transform:lowercase;
+  cursor:pointer;
+}
+.btn-primary:hover{
+  background:#b5c640;
+  color:#222;
+  border-color:#b5c640;
+}
+
+/* big white title on the right */
+h1{
+  margin:0 0 14px;
+  width:50%;
+  margin-left:auto;           /* push to the right half */
+  text-align:left;
+  font-size:48px;
+  line-height:1.05;
+  font-weight:900;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  text-shadow:0 2px 2px rgba(0,0,0,.35);
+}
+
+/* paragraphs on the right (use your <li> as plain text lines) */
+.prep-steps{
+  list-style:none;
+  padding:0;
+  margin:0;
+  width:50%;
+  margin-left:auto;           /* right column */
+}
+.step{
+  margin:12px 0;
+  line-height:1.55;
+  color:#e9e9e9;
+}
